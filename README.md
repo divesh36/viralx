@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VIRALX | Social Media Marketing</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #0e0e0e;
+      color: #f4f4f4;
+      line-height: 1.6;
+    }
+    header {
+      background: #000;
+      padding: 1em 2em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #444;
+    }
+    .logo {
+      font-size: 1.8em;
+      font-weight: bold;
+      color: gold;
+    }
+    nav ul {
+      display: flex;
+      gap: 2em;
+      list-style: none;
+    }
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: gold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h1, h2, h3 {
+      text-align: center;
+      color: gold;
+      margin-bottom: 20px;
+    }
+    ul li {
+      list-style: none;
+      margin: 10px 0;
+    }
+    ul li::before {
+      content: "\2022 ";
+      color: gold;
+      padding-right: 8px;
+    }
+    .team-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-top: 20px;
+    }
+    .team-member {
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 600px;
+      margin: auto;
+    }
+    input, textarea, button {
+      padding: 12px;
+      border-radius: 10px;
+      font-size: 1em;
+      border: none;
+    }
+    input, textarea {
+      background: #1e1e1e;
+      color: #fff;
+    }
+    button {
+      background: gold;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
+      background: #000;
+      padding: 30px;
+      text-align: center;
+      color: #666;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header data-aos="fade-down">
+    <div class="logo">VIRALX</div>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#payment">Payment</a></li>
+        <li><a href="#apply">Apply Now</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" data-aos="fade-up">
+      <h1><i class="fas fa-crown"></i> Social Media Marketing by VIRALX</h1>
+      <p style="text-align:center; max-width:700px; margin:auto;">We build luxury brand communities through elite strategies and premium creative content that resonate with high-value audiences.</p>
+    </section>
+    <section id="services" data-aos="fade-up">
+      <h2>Our Premium Services</h2>
+      <ul>
+        <li>Bespoke Strategy Development</li>
+        <li>Luxury Content Production</li>
+        <li>Exclusive Paid Media Campaigns</li>
+        <li>High-End Influencer Partnerships</li>
+        <li>Elite Social Media Audits</li>
+      </ul>
+    </section>
+    <section id="platforms" data-aos="fade-right">
+      <h2>Platforms We Master</h2>
+      <p style="text-align:center;">Facebook | Instagram | LinkedIn | Twitter | TikTok</p>
+    </section>
+    <section id="results" data-aos="fade-left">
+      <h2>What You Gain</h2>
+      <p style="text-align:center;">Elevated engagement, prestigious brand image, elite conversions, and measurable ROI with every campaign.</p>
+    </section>
+    <section id="about" data-aos="fade-up">
+      <h2>Meet Our Team</h2>
+      <p style="text-align:center;">A curated team of luxury brand strategists, elite creatives, and digital visionaries.</p>
+      <div class="team-grid">
+        <div class="team-member">
+          <h3>Riya</h3>
+          <p>Chartered Accountant</p>
+        </div>
+        <div class="team-member">
+          <h3>Suryansh</h3>
+          <p>Head of Video</p>
+        </div>
+        <div class="team-member">
+          <h3>Kartik</h3>
+          <p>Head of Scriptwriting</p>
+        </div>
+      </div>
+      <h3>Our Headquarters</h3>
+      <p style="text-align:center;">A modern workspace for brilliance and innovation in digital luxury marketing.</p>
+      <div class="ceo-profile" data-aos="fade-up">
+        <h3>Our Visionary CEO</h3>
+        <p style="text-align:center;"><strong>Divesh Thakur</strong> leads VIRALX with a refined vision and strategic leadership, transforming brands into elite icons.</p>
+      </div>
+    </section>
+    <section id="contact" data-aos="fade-up">
+      <h2>Get In Touch</h2>
+      <p style="text-align:center;"><i class="fas fa-envelope"></i> info@viralx.com</p>
+      <p style="text-align:center;"><i class="fas fa-phone"></i> 8580670083</p>
+    </section>
+    <section id="payment" data-aos="zoom-in">
+      <h2>Secure Payment</h2>
+      <p style="text-align:center;">Scan with PhonePe</p>
+      <p style="text-align:center;">Phone: 8580670083</p>
+    </section>
+    <section id="apply" data-aos="fade-up">
+      <h2>Apply to Work With Us</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="tel" name="phone" placeholder="Your Mobile Number" required />
+        <input type="number" name="age" placeholder="Your Age" required />
+        <textarea name="work" rows="4" placeholder="Your Work" required></textarea>
+        <button type="submit">Submit Application</button>
+      </form>
+    </section>
+  </main>
+  <footer data-aos="fade-in">
+    <p>© 2025 VIRALX. All rights reserved.</p>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
